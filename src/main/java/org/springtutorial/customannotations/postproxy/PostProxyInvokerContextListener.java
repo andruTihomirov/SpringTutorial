@@ -1,4 +1,4 @@
-package org.springtutorial.postproxy;
+package org.springtutorial.customannotations.postproxy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;

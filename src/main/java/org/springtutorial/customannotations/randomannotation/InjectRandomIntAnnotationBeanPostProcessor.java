@@ -1,4 +1,4 @@
-package org.springtutorial.customannotation;
+package org.springtutorial.customannotations.randomannotation;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

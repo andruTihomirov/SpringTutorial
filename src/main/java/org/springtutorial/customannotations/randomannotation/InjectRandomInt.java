@@ -1,4 +1,4 @@
-package org.springtutorial.customannotation;
+package org.springtutorial.customannotations.randomannotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

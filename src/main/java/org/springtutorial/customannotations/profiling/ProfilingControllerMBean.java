@@ -1,4 +1,4 @@
-package org.springtutorial.profiling;
+package org.springtutorial.customannotations.profiling;
 
 public interface ProfilingControllerMBean {
 
