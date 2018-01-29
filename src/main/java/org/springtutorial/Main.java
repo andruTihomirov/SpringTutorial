@@ -2,7 +2,8 @@ package org.springtutorial;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springtutorial.customannotations.config.JavaConfig;
+import org.springtutorial.config.customconfig.PropertyFileApplicationContext;
+import org.springtutorial.config.javaconfig.JavaConfig;
 import org.springtutorial.model.Quoter;
 import org.springtutorial.services.CoolService;
 
@@ -16,6 +17,9 @@ public class Main {
 
         AnnotationConfigApplicationContext javaContext = new AnnotationConfigApplicationContext(JavaConfig.class);
         javaContext.getBean(CoolService.class).process();
+
+        PropertyFileApplicationContext context = new PropertyFileApplicationContext("context.properties");
+        context.getBean(Quoter.class).sayQuote();
 
     }
 

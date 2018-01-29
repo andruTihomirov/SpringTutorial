@@ -1,4 +1,4 @@
-package org.springtutorial.customannotations.config;
+package org.springtutorial.config.javaconfig;
 
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
